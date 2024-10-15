@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+header{
+    height: 100px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: 200px;
+}
+
+#domanda{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin: 0 25%;
+}
+
+#finequiz{
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+}
+
+section{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 ;
+}
+
+#risposte{
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: space-around;  
+    align-items: center;     
+    width: 100%;             
+    gap: 15px;  
+    margin: 0 25%;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"]:checked +label{
+    background-color: #00ffff; /* Colore di sfondo verde */
+    border: 2px solid whitesmoke; /* Colore del bordo */
+}
+
+label {
+    width: 200px;
+    /* display: inline-block; */
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.381);
+    border: 2px solid grey;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Cambia colore quando l'utente passa sopra il pulsante */
+label:hover {
+    background-color: #d936eb;
+}
+
+.conferma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+}
+
+.conferma button{
+    color:white;
+    background-color: rgba(104, 96, 255, 0.552);
+    padding:15px;
+    border-radius: 20px;
+    font-size: 15px;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.conferma button:hover{
+    background-color: #d936eb;
+}
+
+footer{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vis{
+    visibility: hidden;
+    display: none;
+    border:none;
+    background-color: transparent;
+}
