@@ -1,0 +1,95 @@
+body {
+    margin: 25px 100px 75px 100px;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+header {
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 200px;
+}
+
+h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+    color: #d20094;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+span {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;  
+    font-weight:normal;
+}
+
+li {
+    margin: 10px;
+}
+
+input, label {
+    
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;  
+}
+
+button {
+    padding: 15px 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f2136;
+    text-align: center;
+    border: none;
+    background-color: #00FFFF;
+    box-shadow: 0 0 5px #0ff, 0 0 8px #0ff, 0 0 8px #0ff;
+    transition: 0.3s;
+    margin-right: 100px;
+}
+
+button:hover {
+    background-color: #e100ff;
+    box-shadow: none;
+    border-radius: 5px;
+    color:white;
+}
+
+button {
+    display: flex;
+    margin-left: auto;
+
+}
+
+footer{
+    margin: 50px 0px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vis {
+    visibility: hidden;
+    display: none;
+    border:none;
+    background-color: transparent;
+}
